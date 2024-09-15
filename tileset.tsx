@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.9" tiledversion="1.9.2" name="BaseChip_pipo" tilewidth="32" tileheight="32" tilecount="1000" columns="8">
 <image source="base.png" width="256" height="4000"/>
+  <tile id="0">
+  <properties>
+   <property name="can_place" type="bool" value="true"/>
+  </properties>
+ </tile>
+  <tile id="1">
+  <properties>
+   <property name="can_place" type="bool" value="true"/>
+  </properties>
+ </tile>
+  <tile id="2">
+  <properties>
+   <property name="can_place" type="bool" value="true"/>
+  </properties>
+ </tile>
+  <tile id="3">
+  <properties>
+   <property name="can_place" type="bool" value="true"/>
+  </properties>
+ </tile>
 <tile id="8">
   <properties>
    <property name="collision" type="bool" value="false"/>
